@@ -20,5 +20,5 @@ CREATE TABLE petPet (
   eventtype  VARCHAR(45),
   remark  VARCHAR(255),
   FOREIGN KEY (petname) REFERENCES petPet(petname),
-  PRIMARY KEY (petname)
+  PRIMARY KEY (petname,eventdate)
 );
